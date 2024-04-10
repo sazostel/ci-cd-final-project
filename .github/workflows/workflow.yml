@@ -5,8 +5,8 @@ on:
     branches: push on main branch
   pull_request:
     branches: pull_request on main branch
-
-jobs:
+    
+jobs
   build:
     runs-on: ubuntu-latest
     container: python:3.9-slim
